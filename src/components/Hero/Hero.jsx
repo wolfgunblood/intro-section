@@ -12,7 +12,7 @@ const Hero = () => {
     <div className='hero-container'>
       <div className='hero-body'>
         <div className='hero-content'>
-          <h1>Make <br /> remote work</h1>
+          <h1>Make <br className='break' /> remote work</h1>
           <p>Get your team in sync, no matter your location. Streamline processes,
             create team rituals, and watch productivity soar.</p>
           <button className='btn'>Learn More</button>
