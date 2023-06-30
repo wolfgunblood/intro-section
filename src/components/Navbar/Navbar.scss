@@ -14,7 +14,7 @@
             // width: 50px;
             // height: 50px;
         }
-        ul{
+        .nav-list{
             margin: 0;
             padding: 2rem;
             list-style: none;
@@ -22,8 +22,22 @@
             align-items: center;
             gap: 50px;
 
-            li{
+            .nav-item{
                 font-size: 18px;
+                position: relative;
+                cursor: pointer;
+
+                .nav-item-btn{
+                    display: inline-flex;
+                    gap: 5px;
+                    align-items: center;
+
+                    font-size: 18px;
+                    border: none;
+                    background: transparent;
+
+                    cursor: pointer;
+                }
             }
         }
     }

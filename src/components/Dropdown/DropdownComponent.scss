@@ -1,0 +1,21 @@
+.dropdown-list{
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 1rem;
+    position: absolute;
+    
+
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 41%);
+
+    .dropdown-item{
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        gap: 12px;
+
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
